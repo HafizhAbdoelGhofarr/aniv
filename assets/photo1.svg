@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff9a9e"/>
+      <stop offset="1" stop-color="#fecfef"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)"/>
+  <g fill="#fff" opacity="0.9">
+    <circle cx="300" cy="300" r="160"/>
+    <circle cx="700" cy="380" r="180"/>
+  </g>
+  <text x="50%" y="88%" font-family="Roboto, Arial" font-size="36" fill="#7a1931" text-anchor="middle">Sweet Memories</text>
+</svg>

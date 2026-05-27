@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1">
+      <stop offset="0" stop-color="#a18cd1"/>
+      <stop offset="1" stop-color="#fbc2eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g3)"/>
+  <g fill="#fff" opacity="0.9">
+    <ellipse cx="400" cy="320" rx="220" ry="140"/>
+    <ellipse cx="820" cy="300" rx="200" ry="140"/>
+  </g>
+  <text x="50%" y="88%" font-family="Roboto, Arial" font-size="36" fill="#34112b" text-anchor="middle">Always With You</text>
+</svg>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy 2 Years, Malika — Together Forever</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Intro overlay: show single button before revealing site -->
+  <div id="intro" class="intro-overlay" aria-hidden="false">
+    <div class="intro-inner">
+      <h2>Happy 2 Years, Malika</h2>
+      <button id="startBtn">Open</button>
+      <p class="intro-sub">Press to open the memories</p>
+    </div>
+  </div>
+
+  <div class="scene hidden">
+    <header class="hero">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1 class="title">Happy 2 Years, Malika!</h1>
+        <p class="date-badge">2 Years Together</p>
+        <p class="subtitle" id="typewriter"></p>
+        <div class="buttons">
+          <button id="revealBtn">View Memories</button>
+          <button id="playMusic">Play Song</button>
+          <button id="surpriseBtn" aria-pressed="false">Surprise!</button>
+        </div>
+      </div>
+      <div class="floating-hearts" aria-hidden="true"></div>
+    </header>
+
+    <main class="main">
+      <section class="photos">
+        <h2>you.</h2>
+        <div class="gallery">
+          <img src="WIN_20260307_16_15_58_Pro.jpg" alt="Memory 1" loading="lazy" data-caption="Malika & You — Our first moment" tabindex="0">
+          <img src="WIN_20260307_16_18_00_Pro.jpg" alt="Memory 2" loading="lazy" data-caption="A walk at dusk" tabindex="0">
+          <img src="WIN_20260307_16_39_16_Pro.jpg" alt="Memory 3" loading="lazy" data-caption="Unforgettable laughter" tabindex="0">
+          <img src="WIN_20260307_16_39_35_Pro.jpg" alt="Memory 4" loading="lazy" data-caption="Little moments, big love" tabindex="0">
+
+        </div>
+        <p class="caption">Replace these photos with your favorite memories.</p>
+      </section>
+
+      <section class="timeline">
+        <h2>2-Year Timeline</h2>
+        <ol>
+          <li><strong>Meeting</strong> — The moment we won't forget.</li>
+          <li><strong>First Outing</strong> — Laughter and light rain.</li>
+          <li><strong>Moving In</strong> — Slowly, together.</li>
+          <li><strong>Today</strong> — Two years of love.</li>
+        </ol>
+      </section>
+
+      <section class="message" id="messageSection">
+        <h2>For You</h2>
+        <p class="love-letter">"With every passing second, my heart chooses you again."</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>With love, forever ✨</p>
+    </footer>
+
+    <audio id="song" src="assets/favorite-girl.mp3" preload="none"></audio>
+    <canvas id="confetti"></canvas>
+    <!-- Lightbox for gallery -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lb-close" aria-label="Close">✕</button>
+      <button class="lb-prev" aria-label="Previous">‹</button>
+      <div class="lb-inner">
+        <img class="lb-image" src="" alt="">
+        <p class="lb-caption"></p>
+      </div>
+      <button class="lb-next" aria-label="Next">›</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

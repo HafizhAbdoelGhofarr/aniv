@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6d365"/>
+      <stop offset="1" stop-color="#fda085"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g2)"/>
+  <g fill="#fff" opacity="0.85">
+    <path d="M200 500 q150 -260 400 -120 q170 110 350 -40 v260 h-750z"/>
+  </g>
+  <text x="50%" y="88%" font-family="Roboto, Arial" font-size="36" fill="#7a1931" text-anchor="middle">Moments Together</text>
+</svg>
